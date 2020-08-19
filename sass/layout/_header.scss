@@ -1,7 +1,7 @@
 /* HEADER */
 
 .page-header {
-  width: 100%;
+  /* width: 100%; */
   background-color: $primary-white-color;
   border-bottom: 1px solid #ececec;
 
@@ -24,11 +24,11 @@
 
 /*оформлення меню*/
 
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 .nav-item-link {
   font-family: $font-family-main;

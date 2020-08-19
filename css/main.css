@@ -30,19 +30,29 @@ img {
 }
 
 .container {
-  min-width: 1200px;
-  width: 100%;
-  max-width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    /* margin: 0 auto; */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 /* MODAL */
@@ -323,7 +333,7 @@ img {
 
 /* HEADER */
 .page-header {
-  width: 100%;
+  /* width: 100%; */
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
@@ -345,12 +355,11 @@ img {
 }
 
 /*оформлення меню*/
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
+} */
 .nav-item-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
