@@ -7,6 +7,8 @@
   
 }
 
+/* Menu Burger */
+
 .menu-burger {
   display: inline-flex;
   margin: 0;
@@ -52,19 +54,6 @@
   }
 }
 
-.logo {
-  display: inline-block;
-
-  font-family: $font-family-secondary;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19em;
-  letter-spacing: 0.03em;
-  color: $main-black-color;
-  margin-right: 30px;
-}
-
 .logo-color {
   color: $accent-color;
 }
@@ -74,18 +63,26 @@
 .container .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   height: 60px;
 }
 
 @media screen and (max-width: 767px) {
-  .nav-item {
-    display: block;
+    .logo {
+    display: inline-block;
 
-    &:not(:last-child) {
-  margin-bottom: 40px;
+    font-family: $font-family-secondary;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19em;
+    letter-spacing: 0.03em;
+    color: $main-black-color;
+    margin-right: 30px;
   }
+}
 
+@media screen and (max-width: 767px) {
   .nav-item-link {
     font-family: $font-family-main;
     font-style: normal;
@@ -105,9 +102,17 @@
       color: $accent-color;
     
     }
-
-   
 }
+
+/* @media screen and (max-width: 767px) {
+  .nav-item {
+    display: block;
+
+    &:not(:last-child) {
+  margin-bottom: 40px;
+  }
+} */
+
 
 /* .nav-item-link {
   font-family: $font-family-main;
