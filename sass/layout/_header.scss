@@ -1,36 +1,115 @@
 /* HEADER */
 
 .page-header {
-  /* width: 100%; */
+  position: relative;
   background-color: $primary-white-color;
   border-bottom: 1px solid #ececec;
+  
+}
 
-  .logo {
+.menu-burger {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-burger .icon-burger {
+  display: none;
+}
+
+.menu-burger:hover .icon-burger {
+  fill: $accent-color;
+}
+
+.menu-burger.is-open .icon-burger {
+  display: block;
+}
+
+.menu-burger.is-open .icon-cross {
+  display: none;
+}
+
+.menu-container {
+  display: none;
+
+  position: absolute;
+  top: 102%;
+  left: 0;
+  width: 100%;
+
+  background-color: $primary-white-color;
+  padding: 60px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.16em;
+
+  &.is-open {
     display: block;
-    font-family: $font-family-secondary;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19em;
-    letter-spacing: 0.03em;
-    color: $main-black-color;
-    margin-right: 85px;
-
-    .logo-color {
-      color: $accent-color;
-    }
   }
+}
+
+.logo {
+  display: inline-block;
+
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  color: $main-black-color;
+  margin-right: 30px;
+}
+
+.logo-color {
+  color: $accent-color;
 }
 
 /*оформлення меню*/
 
-/* .main-nav {
+.container .main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-} */
+  height: 60px;
+}
 
-.nav-item-link {
+@media screen and (max-width: 767px) {
+  .nav-item {
+    display: block;
+
+    &:not(:last-child) {
+  margin-bottom: 40px;
+  }
+
+  .nav-item-link {
+    font-family: $font-family-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.16em;
+    letter-spacing: 0.02em;
+    color: $primary-title-color;
+
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    
+    }
+
+   
+}
+
+/* .nav-item-link {
   font-family: $font-family-main;
   font-style: normal;
   font-weight: 500;
@@ -48,22 +127,22 @@
   &:focus {
     color: $accent-color;
   }
-}
+} */
 
-.nav-item-list {
+/* .nav-item-list {
   display: flex;
-}
+} */
 
-.nav-item:not(:last-child) {
+/* .nav-item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
-.nav-item {
+/* .nav-item {
   display: block;
   position: relative;
-}
+} */
 
-.current {
+/* .current {
   color: $accent-color;
 
   &::after {
@@ -76,40 +155,41 @@
     background-color: $accent-color;
     border-radius: 2px;
   }
-}
+} */
 
 /*оформлення маржінів і кольору контактів*/
 
-.header-contacts {
+/* .header-contacts {
   display: flex;
   align-items: center;
   margin-left: auto;
-}
+} */
 
-.contacts-ul {
+/* .contacts-ul {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-}
-.contacts-item {
-  display: flex;
-}
+} */
 
-.contacts-icon {
+/* .contacts-item {
+  display: flex;
+} */
+
+/* .contacts-icon {
   margin-right: 10px;
   fill: currentColor;
 
   &:hover {
     fill: $accent-color;
   }
-}
+} */
 
-.contacts-item:not(:last-child) {
+/* .contacts-item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
-.contacts-item-link {
+/* .contacts-item-link {
   display: flex;
   align-items: center;
   font-family: $font-family-main;
@@ -124,4 +204,4 @@
   &:focus {
     color: $accent-color;
   }
-}
+} */
