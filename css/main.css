@@ -547,7 +547,7 @@ img {
   .header-contacts {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    /* margin-left: auto; */
   }
   .contacts-ul {
     display: block;
