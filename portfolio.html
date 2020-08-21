@@ -18,52 +18,75 @@
           <a href="index.html" lang="en" class="logo" aria-label="Логотип">
             <span class="logo-color">Web</span> Studio</a
           >
-          <div>
+          <button
+            type="button"
+            class="menu-burger is-open"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              width="24"
+              height="16"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="icon-cross"
+                href="./img/icomoon/sprite.svg#icon-navigation-close"
+              ></use>
+              <use
+                class="icon-burger"
+                href="./img/icomoon/sprite.svg#icon-navigation-open"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container" id="menu-container" data-menu>
             <ul class="nav-item-list list">
               <li class="nav-item">
-                <a href="./index.html" class="nav-item-link">Студия</a>
+                <a href="/index.html" class="nav-item-link">Студия</a>
               </li>
               <li class="nav-item">
-                <a href="./portfolio.html" class="nav-item-link current"
-                  >Портфолио</a
-                >
+                <a href="#" class="nav-item-link current">Портфолио</a>
               </li>
               <li class="nav-item">
                 <a href="" class="nav-item-link">Контакты</a>
               </li>
             </ul>
+
+            <div class="header-contacts">
+              <ul class="contacts-ul list">
+                <li class="contacts-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="contacts-item-link"
+                  >
+                    <svg class="contacts-icon" width="16" height="12">
+                      <use
+                        href="./img/icomoon/sprite.svg#icon-envelope-hover"
+                      ></use>
+                    </svg>
+                    info@devstudio.com</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <a href="tel:380961111111" class="contacts-item-link">
+                    <svg class="contacts-icon" width="10" height="15">
+                      <use
+                        href="./img/icomoon/sprite.svg#icon-smartphone"
+                      ></use>
+                    </svg>
+                    +38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
-
-        <div class="header-contacts">
-          <ul class="contacts-ul">
-            <li class="contacts-item">
-              <a href="mailto:info@devstudio.com" class="contacts-item-link">
-                <svg class="contacts-icon" width="16" height="12">
-                  <use
-                    href="./img/icomoon/sprite.svg#icon-envelope-hover"
-                  ></use>
-                </svg>
-                info@devstudio.com</a
-              >
-            </li>
-
-            <li class="contacts-item">
-              <a href="tel:380961111111" class="contacts-item-link">
-                <svg class="contacts-icon" width="10" height="15">
-                  <use href="./img/icomoon/sprite.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
       </div>
     </header>
-
     <!--Блок main-->
 
-    <main>
+    <!-- <main>
       <section class="portfolio-section">
         <div class="container">
           <h1 hidden>Фильтр работ</h1>
@@ -90,9 +113,9 @@
               </button>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <h2 hidden>Наши работы</h2>
+    <!-- <h2 hidden>Наши работы</h2>
         <div class="container">
           <ul class="work-list list">
             <li class="work-list-item">
@@ -291,10 +314,10 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!--Футер-->
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container">
         <div class="footer-contacts">
           <a
@@ -321,7 +344,7 @@
         </div>
 
         <!--Соцсети-->
-        <div class="join-to-us">
+    <!-- <div class="join-to-us">
           <p class="footer-title list">Присоединяйтесь</p>
           <ul class="footer-social-list list">
             <li class="footer-social-list-item">
@@ -368,11 +391,11 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-        <!--Россылка-->
+    <!--Россылка-->
 
-        <div class="mailing">
+    <!-- <div class="mailing">
           <h2 hidden>Футер сайта</h2>
           <p class="footer-form-label list">Подпишитесь на рассылку</p>
           <div class="mailing-form">
@@ -396,6 +419,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer>  -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>

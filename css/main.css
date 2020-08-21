@@ -495,7 +495,8 @@ img {
     display: flex;
   }
   .page-header {
-    height: 70px;
+    padding-top: 5px;
+    height: 75px;
   }
   .main-nav {
     display: flex;
@@ -602,17 +603,47 @@ img {
 }
 
 /*hero section*/
-.hero-section {
-  min-width: 1200px;
-  margin-top: 0;
-  text-align: center;
-  background-color: #757575;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../img/Header.images.jpg");
-  background-repeat: no-repeat;
+@media screen and (max-width: 767px) {
+  .hero-section {
+    margin-top: 0;
+    text-align: center;
+    background-color: #757575;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("../img/mobile.jpg");
+    background-repeat: no-repeat;
+  }
+  .main-title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 118px;
+    padding-right: 60px;
+    padding-bottom: 118px;
+    padding-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 1.61em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }
 
-.main-title {
-  font-family: "Roboto", sans-serif;
+/* .hero-section {
+  margin-top: 0;
+  text-align: center;
+  background-color: $primary-text-color;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url("../img/Header.images.jpg");
+
+  background-repeat: no-repeat;
+} */
+/* .main-title {
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 900;
   padding-top: 200px;
@@ -620,14 +651,15 @@ img {
   margin-bottom: 30px;
   font-size: 44px;
   line-height: 1.36em;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $primary-white-color;
 }
 
 .hero-modal-btn {
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-family-main;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -635,16 +667,16 @@ img {
   height: 50px;
   padding: 10px 32px;
   margin-bottom: 200px;
+
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: $primary-white-color;
+  background: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+} */
 /* quality list*/
 .icon-wrapper {
   display: flex;
