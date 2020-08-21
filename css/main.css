@@ -113,8 +113,8 @@ img {
     margin-top: 0;
     margin-bottom: 30px;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.12em;
+    font-size: 20px;
+    line-height: 1.5em;
     text-align: center;
     color: #212121;
   }
@@ -218,11 +218,11 @@ img {
     cursor: pointer;
   }
   .checkbox-name {
-    display: flex;
+    display: block;
     align-items: center;
-    font-size: 14px;
-    line-height: 1.71em;
-    letter-spacing: 0.01em;
+    font-size: 12px;
+    line-height: 1.16em;
+    letter-spacing: 0.03em;
     margin-bottom: 0px;
     cursor: pointer;
     color: #757575;
