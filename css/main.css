@@ -508,9 +508,10 @@ img {
     fill: #2196f3;
   }
   .contacts-item {
-    display: flex;
+    display: inline-block;
     align-items: center;
-    margin-top: 10px;
+  }
+  .contacts-item:not(:last-child) {
     margin-bottom: 10px;
   }
   .contacts-item-link {
