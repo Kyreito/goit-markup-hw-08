@@ -4,9 +4,18 @@
   .our-team-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    /* background-color: $secondary-white-color; */
   }
 
-  .main-page > .our-team-section:nth-last-child(2) {
+  .title-text {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.17em;
+  }
+
+  .main-page > .our-team-section:nth-last-child(4) {
     background-color: $secondary-white-color;
   }
 
@@ -27,6 +36,7 @@
   }
 
   .team-photo {
+    max-width: 100%;
     margin-top: 0;
     margin-bottom: 30px;
   }
