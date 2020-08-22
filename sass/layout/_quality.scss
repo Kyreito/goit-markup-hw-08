@@ -122,6 +122,10 @@
     flex-basis: calc(50% - 30px);
   }
 
+  .quality-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+
   .quality-list-item {
     display: inline-block;
   }
@@ -132,6 +136,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .quality-section {
+    padding-top: 95px;
+    padding-bottom: 95px;
+  }
   .icon-wrapper {
     width: 270px;
   }
@@ -139,6 +147,7 @@
   .quality-item:not(:last-child) {
     margin-right: 30px;
     flex-basis: unset;
+    margin-bottom: 0;
   }
 
   .discription-text {
