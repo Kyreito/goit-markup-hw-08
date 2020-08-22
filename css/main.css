@@ -1191,7 +1191,7 @@ img {
   .our-team-section {
     padding-top: 60px;
     padding-bottom: 60px;
-    /* background-color: $secondary-white-color; */
+    background-color: #f5f4fa;
   }
   .title-text {
     display: flex;
@@ -1201,7 +1201,7 @@ img {
     line-height: 1.17em;
   }
   .main-page > .our-team-section:nth-last-child(4) {
-    background-color: #f5f4fa;
+    /* background-color: $secondary-white-color; */
   }
   .team-list {
     display: block;
@@ -1217,7 +1217,7 @@ img {
     border-radius: 0px 0px 4px 4px;
   }
   .team-photo {
-    max-width: 100%;
+    /*  max-width: 100%; */
     margin-top: 0;
     margin-bottom: 30px;
   }
