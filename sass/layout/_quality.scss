@@ -16,7 +16,7 @@
 
   .icon-1::before {
     content: "";
-    width: 450px;
+    width: 270px;
     height: 120px;
     background-image: url("../img/antenna-1.svg");
     background-repeat: no-repeat;
@@ -68,6 +68,7 @@
     justify-content: center;
     margin-top: 0;
     margin-bottom: 10px;
+    max-width: 450px;
 
     font-family: $font-family-main;
     font-style: normal;
@@ -83,6 +84,7 @@
 
   .discription-text {
     display: block;
+    max-width: 450px;
     margin-top: 0;
     margin-bottom: 0;
     font-family: $font-family-main;
@@ -92,5 +94,54 @@
     line-height: 1.71em;
     letter-spacing: 0.03em;
     color: $primary-text-color;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 354px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: $secondary-white-color;
+  }
+
+  .quality-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .quality-item:nth-child(odd) {
+    margin-right: 30px;
+    flex-basis: calc(50% - 30px);
+  }
+
+  .quality-list-item {
+    display: inline-block;
+  }
+
+  .discription-text {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .icon-wrapper {
+    width: 270px;
+  }
+
+  .quality-item:not(:last-child) {
+    margin-right: 30px;
+    flex-basis: unset;
+  }
+
+  .discription-text {
+    width: 270px;
   }
 }
