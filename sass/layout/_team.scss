@@ -4,7 +4,7 @@
   .our-team-section {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: $secondary-white-color;
+    /* background-color: $secondary-white-color; */
   }
 
   .title-text {
@@ -16,7 +16,7 @@
   }
 
   .main-page > .our-team-section:nth-last-child(4) {
-    /* background-color: $secondary-white-color; */
+    background-color: $secondary-white-color;
   }
 
   .team-list {
@@ -36,7 +36,7 @@
   }
 
   .team-photo {
-    /*  max-width: 100%; */
+    max-width: 100%;
     margin-top: 0;
     margin-bottom: 30px;
   }
