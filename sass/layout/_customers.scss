@@ -57,8 +57,7 @@
 @media screen and (min-width: 768px) {
   .customers-list-item {
     height: 90px;
-    /* display: block; */
-    /* margin-bottom: 30px; */
+    max-width: 210px;
 
     flex-basis: calc(50% - 30px);
   }
