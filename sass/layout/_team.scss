@@ -4,6 +4,7 @@
   .our-team-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: $secondary-white-color;
   }
 
   .title-text {
@@ -13,10 +14,6 @@
     font-size: 28px;
     line-height: 1.17em;
     margin-top: 0px;
-  }
-
-  .main-page > .our-team-section:nth-last-child(4) {
-    background-color: $secondary-white-color;
   }
 
   .team-list {
