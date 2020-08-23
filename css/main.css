@@ -1191,6 +1191,7 @@ img {
   .our-team-section {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #f5f4fa;
   }
   .title-text {
     display: flex;
@@ -1200,9 +1201,9 @@ img {
     line-height: 1.17em;
     margin-top: 0px;
   }
-  .main-page > .our-team-section:nth-last-child(4) {
-    background-color: #f5f4fa;
-  }
+  /* .main-page > .our-team-section:nth-last-child(2) {
+    background-color: $secondary-white-color;
+  } */
   .team-list {
     display: block;
   }
