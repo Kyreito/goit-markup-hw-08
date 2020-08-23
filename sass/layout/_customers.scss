@@ -84,7 +84,7 @@
 
   .customers-list-item:not(:last-child) {
     margin-right: 30px;
-    flex-basis: calc(100% - 90px);
+    flex-basis: calc(50% - 30px);
     max-width: 170px;
   }
 
