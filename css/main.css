@@ -1766,8 +1766,8 @@ img {
     height: 100%;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 0px;
-    padding-top: 33px;
-    padding-bottom: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 24px;
     padding-right: 24px;
     font-family: "Roboto", sans-serif;
