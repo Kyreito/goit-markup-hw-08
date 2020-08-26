@@ -105,9 +105,7 @@
 
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <p class="modal-title">
-              Оставьте свои данные, мы вам перезвоним
-            </p>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form class="form">
               <label class="form-field">
                 <input
@@ -172,9 +170,7 @@
                   <a class="label-link" href="">Условия договора</a>
                 </span>
               </label>
-              <button type="submit" class="form-submit">
-                Отправить
-              </button>
+              <button type="submit" class="form-submit">Отправить</button>
             </form>
 
             <button class="close-modal" data-modal-close>
@@ -263,11 +259,29 @@
           <h2 class="title-text">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <img
+              <picture class="team-photo">
+                <source
+                  srcset="./img/team/n-k-mob@1x.jpg"
+                  media="(max-width: 450px)"
+                />
+
+                <source
+                  srcset="./img/team/n-k-tab@1x.jpg"
+                  media="(min-width: 451px)"
+                />
+
+                <source
+                  srcset="./img/team/n-k-desk@1x.jpg"
+                  media="(min-width: 1200px)"
+                />
+
+                <img src="./img/team/n-k-mob@1x.jpg" alt="Николай Кучеренко" />
+              </picture>
+              <!-- <img
                 class="team-photo"
                 src="./img/Николай-Кучеренко-2.jpg"
                 alt="Николай Кучеренко"
-              />
+              /> -->
               <h3 class="team-people-name">Николай Кучеренко</h3>
               <p class="professon-name">Product Designer</p>
               <ul class="social-list list">
@@ -319,11 +333,34 @@
             </li>
 
             <li class="team-list-item">
-              <img
+              <picture class="team-photo">
+                <source
+                  srcset="./img/team/olha-i-mob@1x.jpg 1x"
+                  media="(max-width: 450px)"
+                  max-width:
+                  100%
+                />
+
+                <source
+                  srcset="./img/team/olha-i-tab@1x.jpg 1x"
+                  media="(min-width: 451px)"
+                />
+
+                <source
+                  srcset="./img/team/olha-i-desk@1x.jpg 1x"
+                  media="(min-width: 1200px)"
+                />
+
+                <img
+                  src="./img/team/olha-i-mob@1x.jpg"
+                  alt="Николай Кучеренко"
+                />
+              </picture>
+              <!-- <img
                 class="team-photo"
                 src="./img/Ольга-Иванова-2.jpg"
                 alt="Ольга Иванова"
-              />
+              /> -->
               <h3 class="team-people-name">Ольга Иванова</h3>
               <p class="professon-name">Frontend Develope</p>
               <ul class="social-list list">
