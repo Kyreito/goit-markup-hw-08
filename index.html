@@ -232,19 +232,45 @@
           <ul class="exemple-list list">
             <li class="exemple-list-item">
               <a href="#">
-                <img src="./img/img1.jpg" alt="Box1" width="370" />
+                
+                <!-- DESKTOP -->
+                
+                <source srcset="
+                                        ./img/1-desk-370.jpg 1x,
+                                        ./img/1-desk-740.jpg 2x
+                                      " media="(min-width: 1200px)" />
+                
+                <img loading="lazy" src="./img/1-desk-370.jpg" alt="Изображение ноутбука" width="370" />
+                </picture>
+                
                 <p class="work-list-text">Десктопные приложения</p>
               </a>
             </li>
             <li class="exemple-list-item">
               <a href="#">
-                <img src="./img/box1.1.jpg" alt="Box2" width="370" />
+                <!-- DESKTOP -->
+                
+                <source srcset="
+                                                        ./img/2-desk-370.jpg 1x,
+                                                        ./img/2-desk-740.jpg 2x
+                                                      " media="(min-width: 1200px)" />
+                
+                <img loading="lazy" src="./img/2-desk-370.jpg" alt="Изображение телефона" width="370" />
+                </picture>
                 <p class="work-list-text">Мобильные приложения</p>
               </a>
             </li>
             <li class="exemple-list-item">
               <a href="#">
-                <img src="./img/img3.jpg" alt="Box3" width="370" />
+                <!-- DESKTOP -->
+                
+                <source srcset="
+                                                        ./img/3-desk-370.jpg 1x,
+                                                        ./img/3-desk-740.jpg 2x
+                                                      " media="(min-width: 1200px)" />
+                
+                <img loading="lazy" src="./img/3-desk-370.jpg" alt="Изображение настольного компютера" width="370" />
+                </picture>
                 <p class="work-list-text">Дизайнерские решения</p>
               </a>
             </li>
