@@ -259,23 +259,23 @@
           <h2 class="title-text">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
-              <picture class="team-photo">
+              <picture>
                 <source
-                  srcset="./img/team/n-k-mob@1x.jpg 1x"
+                  srcset="./img/team/n-k-mob@1x.jpg 1x, ./img/team/n-k-mob@2x.jpg 2x"
                   media="(max-width: 767px)"
                 />
 
                 <source
-                  srcset="./img/team/n-k-tab@1x.jpg 1x"
-                  media="(min-width: 768px)"
+                  srcset="./img/team/n-k-tab@1x.jpg 1x, ./img/team/n-k-tab@2x.jpg 2x"
+                  media="(max-width: 1199px)"
                 />
 
                 <source
-                  srcset="./img/team/n-k-desktop-270.jpg 1x"
+                  srcset="./img/team/n-k-desktop-270.jpg 1x, ./img/team/n-k-desk@2x.jpg 2x"
                   media="(min-width: 1200px)"
                 />
 
-                <img
+                <img loading="lazy" class="team-photo"
                   src="./img/team/n-k-desktop-270.jpg"
                   alt="Николай Кучеренко"
                 />
