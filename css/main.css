@@ -1605,10 +1605,11 @@ img {
     align-items: baseline;
     justify-content: space-between;
     position: relative;
+    max-width: 1230px;
   }
   .footer-section {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
   }
   .mailing-form input {
     display: flex;
@@ -1643,6 +1644,9 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+  }
+  .join-to-us {
+    margin-bottom: 0;
   }
   .footer-title {
     display: flex;
