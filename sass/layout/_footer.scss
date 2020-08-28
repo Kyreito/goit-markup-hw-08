@@ -244,11 +244,17 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
+    justify-content: space-between;
     position: relative;
   }
 
+  .footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .mailing-form input {
-    display: block;
+    display: flex;
     height: 50px;
     width: 100%;
     width: 358px;
@@ -260,13 +266,6 @@
     display: flex;
     margin-left: 10px;
     margin-top: 0;
-    /* justify-content: center */
-  }
-
-  .mailing-form {
-    display: flex;
-    width: 100%;
-    width: 358px;
   }
 
   .footer-form {
@@ -275,12 +274,7 @@
 
   .footer-contacts {
     display: block;
-    margin-right: 80px;
     margin-bottom: 0;
-  }
-
-  .join-to-us {
-    margin-right: 35px;
   }
 
   .mailing {
