@@ -1,29 +1,29 @@
 /*Work-exemples*/
 
 @media screen and (max-width: 1199px) {
-  .work-exemples {
+  .work-examples {
     display: none;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .work-exemples {
+  .work-examples {
     margin-bottom: 95px;
   }
 
-  .work-exemples img {
+  .work-examples img {
     display: block;
   }
-  .exemple-list {
-    display: flex;
+  .example-list {
+    display: flex; 
     justify-content: center;
   }
 
-  .exemple-list-item:not(:last-child) {
+  .example-list-item:not(:last-child) {
     margin-right: 30px;
   }
 
-  .exemple-list-item {
+  .example-list-item {
     position: relative;
   }
 
