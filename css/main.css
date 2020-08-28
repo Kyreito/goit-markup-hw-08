@@ -1605,6 +1605,7 @@ img {
     align-items: baseline;
     justify-content: space-between;
     position: relative;
+    max-width: 1230px;
   }
   .footer-section {
     padding-top: 60px;
